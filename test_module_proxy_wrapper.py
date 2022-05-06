@@ -25,9 +25,6 @@ class MockDDPWrapper(nn.Module):
 
 
 class Model(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.linear = nn.Linear(5, 10)
         self.xyz = "hello"
 
     def forward(self, x):
